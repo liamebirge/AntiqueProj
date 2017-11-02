@@ -56,7 +56,7 @@ header{
 	width:250px;
 	border:1px solid black;
 	border-radius: 5px;
-	height:400px;
+	height:auto;
 }
 .spec h4{
 	text-align:center;
@@ -69,4 +69,20 @@ header{
 	height:auto;
 	margin-right: auto;
 	margin-left: auto;
+}
+.antiqueHeader{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+.antiqueHeader button{
+	border-radius: 3px;
+	margin-left:10px;
+	margin-top:auto;
+	margin-bottom: auto;
+	height:30px;
+}
+.antiqueHeader h1{
+	margin-left:auto;
+	margin-right: auto;
 }
