@@ -57,6 +57,7 @@ header{
 	border:1px solid black;
 	border-radius: 5px;
 	height:auto;
+	margin-right:50px;
 }
 .spec h4{
 	text-align:center;
@@ -87,5 +88,5 @@ header{
 	margin-right: auto;
 }
 .imageBox{
-	margin-left:80px;
+	margin-left:50px;
 }
