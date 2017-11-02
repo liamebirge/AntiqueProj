@@ -63,6 +63,9 @@ header{
 .spec h4{
 	text-align:center;
 }
+.spec li{
+	margin-bottom: 10px
+}
 .antiqueDetails{
 	display: flex;
 	flex-direction: row;
