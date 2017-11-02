@@ -40,3 +40,6 @@ header{
 	padding:0px;
 	overflow: hidden;
 }
+#gallery img:hover{
+	cursor: pointer;
+}
