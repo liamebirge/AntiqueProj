@@ -31,17 +31,12 @@ header{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
+	justify-content: space-around;
 }
 #gallery img{
-	width: 40%;
-	height: auto;
+	width: auto;
+	height: 500px;
 	margin:5px;
 	padding:0px;
-}
-#gallery a{
-	width:40%;
-	padding:0px;
-	margin:0px;
+	overflow: hidden;
 }
