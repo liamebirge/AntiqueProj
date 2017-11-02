@@ -43,3 +43,30 @@ header{
 #gallery img:hover{
 	cursor: pointer;
 }
+
+/*Antique detail pages*/
+.imageBox img{
+	width: auto;
+	height: 600px;
+	margin:5px;
+	padding:0px;
+	overflow: hidden;
+}
+.spec{
+	width:250px;
+	border:1px solid black;
+	border-radius: 5px;
+	height:400px;
+}
+.spec h4{
+	text-align:center;
+}
+.antiqueDetails{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
