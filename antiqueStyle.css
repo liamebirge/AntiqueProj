@@ -39,6 +39,7 @@ header{
 	margin:5px;
 	padding:0px;
 	overflow: hidden;
+	border:;
 }
 #gallery img:hover{
 	cursor: pointer;
@@ -89,4 +90,19 @@ header{
 }
 .imageBox{
 	margin-left:50px;
+}
+aside .aboutLink{
+	width:300px;
+	border:1px solid black;
+	border-radius: 5px;
+	display:flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	padding:5px;
+}
+.aboutLink button{
+	width:200px;
+	align-self: center;
 }
