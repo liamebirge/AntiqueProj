@@ -121,3 +121,12 @@ header{
 .whatIsAntique p::first-letter, .whyDigitize p::first-letter{
 	font-size: 200%;
 }
+
+
+/*About Page*/
+#about{
+	width: 100%;
+}
+#about h2{
+	text-align: center;
+}
