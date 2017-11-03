@@ -25,6 +25,7 @@ header{
 }
 #gallery{
 	width: 85%;
+	min-width: 730px;
 	margin-right: auto;
 	margin-left: auto;
 	padding:0px;
@@ -34,12 +35,12 @@ header{
 	justify-content: space-around;
 }
 #gallery img{
-	width: auto;
-	height: 500px;
+	max-width:100%;
+	min-width: 400px;
+	max-height: 700px;
 	margin:5px;
 	padding:0px;
 	overflow: hidden;
-	border:;
 }
 #gallery img:hover{
 	cursor: pointer;
