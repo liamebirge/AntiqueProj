@@ -94,7 +94,7 @@ header{
 .imageBox{
 	margin-left:50px;
 }
-aside .aboutLink{
+.aboutLink{
 	width:300px;
 	border:1px solid black;
 	border-radius: 5px;
@@ -110,7 +110,7 @@ aside .aboutLink{
 	width:200px;
 	align-self: center;
 }
-.whatIsAntique{
+.whatIsAntique, .whyDigitize{
 	width:50%;
 	min-width: 300px;
 	border:1px solid black;
@@ -118,6 +118,6 @@ aside .aboutLink{
 	padding:5px;
 	margin:5px;
 }
-.whatIsAntique p::first-letter{
+.whatIsAntique p::first-letter, .whyDigitize p::first-letter{
 	font-size: 200%;
 }
