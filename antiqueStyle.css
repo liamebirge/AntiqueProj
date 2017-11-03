@@ -104,8 +104,20 @@ aside .aboutLink{
 	align-content: center;
 	text-align: center;
 	padding:5px;
+	margin:5px;
 }
 .aboutLink button{
 	width:200px;
 	align-self: center;
+}
+.whatIsAntique{
+	width:50%;
+	min-width: 300px;
+	border:1px solid black;
+	border-radius: 5px;
+	padding:5px;
+	margin:5px;
+}
+.whatIsAntique p::first-letter{
+	font-size: 200%;
 }
