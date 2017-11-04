@@ -1,3 +1,10 @@
+@font-face {
+    font-family: boxOnBox;
+    src: url(https://liamebirge.github.io/Fonts/BOXONBOX.TTF);
+
+    font-family: dopeStyle;
+    src: url(https://liamebirge.github.io/Fonts/Dopestyle.TTF);
+}
 body{
 	min-width: 730px;
 	font-family: helvetica, decorative;
@@ -46,7 +53,7 @@ header{
 	padding:0px;
 	overflow: hidden;
 }
-#gallery img:hover{
+#gallery img:hover, .imageBox img:hover{
 	cursor: pointer;
 }
 
