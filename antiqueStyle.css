@@ -103,12 +103,12 @@ header{
 	height:40px;
 }
 .gallNav #b1{
-	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/left.gif);
+	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/left.png);
 	background-repeat:no-repeat;
     background-size:contain;
 }
 .gallNav #b2{
-	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/right.gif);
+	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/right.png);
 	background-repeat:no-repeat;
     background-size:contain;
 }
@@ -146,8 +146,19 @@ header{
 
 /*About Page*/
 #about{
-	width: 100%;
+	width:42%;
+	border:1px solid black;
+	border-radius: 5px;
+	margin:5px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #about h2{
 	text-align: center;
+}
+#about p{
+	width:98%;
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
 }
