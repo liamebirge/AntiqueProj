@@ -98,6 +98,20 @@ header{
 .imageBox{
 	margin-left:50px;
 }
+.gallNav button{
+	width:40px;
+	height:40px;
+}
+.gallNav #b1{
+	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/left.gif);
+	background-repeat:no-repeat;
+    background-size:contain;
+}
+.gallNav #b2{
+	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/right.gif);
+	background-repeat:no-repeat;
+    background-size:contain;
+}
 
 
 /*Main Page*/
