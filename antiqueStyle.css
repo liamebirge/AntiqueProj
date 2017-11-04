@@ -103,12 +103,12 @@ header{
 	height:40px;
 }
 .gallNav #b1{
-	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/left.gif);
+	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/left.png);
 	background-repeat:no-repeat;
     background-size:contain;
 }
 .gallNav #b2{
-	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/right.gif);
+	background: url(https://liamebirge.github.io/AntiqueProj/Pictures/Icons/right.png);
 	background-repeat:no-repeat;
     background-size:contain;
 }
