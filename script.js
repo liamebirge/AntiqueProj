@@ -10,12 +10,9 @@ function gotoNew(url){
 
 function flipImg(antiqueNum){
 	document.getElementById("antiqueImg");
-	if (document.getElementByClassNames("antiqueImg").src == "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg") 
-        {
-            document.getElementByClassNames("antiqueImg").src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + "R.jpg";
-        }
-        else 
-        {
-            document.getElementByClassNames("antiqueImg").src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg";
-        }
+	if (document.getElementByClassName("antiqueImg").src == "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg") {
+		document.getElementByClassName("antiqueImg").src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + "R.jpg";
+	}else {
+		document.getElementByClassName("antiqueImg").src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg";
+	}
 }
