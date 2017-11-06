@@ -9,8 +9,8 @@ function gotoNew(url){
 }
 
 function flipImg(antiqueNum){
-	var image = document.getElementById("antiqueImg");
-	if (image.src == "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg") {
+	var image = document.getElementsByClassName("antiqueImg");
+	if (image.src === "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg") {
 		image.src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + "R.jpg";
 	}else {
 		image.src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg";
