@@ -6,7 +6,7 @@
 		<meta name="author" content="Liam English-Birge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../antiqueStyle.css" type="text/css" />
-		<script src="https://liamebirge.github.io/AntiqueProj/script.js" type="text/javascript"></script>
+		<script src="../script.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<header class="antiqueHeader">
@@ -20,7 +20,7 @@
 		<hr />
 		<section class="antiqueDetails">
 			<div class="imageBox">
-				<img class="antiqueImg" onclick="flipImg('01')" src="https://liamebirge.github.io/AntiqueProj/Pictures/antique01.jpg" alt="antique01" />
+				<img class="antiqueImg" onmouseover="this.src='../Pictures/antique01R.jpg'" onmouseout="this.src='../Pictures/antique01.jpg'" onclick="gotoSame('../Pictures/antique01.jpg')" src="../Pictures/antique01.jpg" alt="antique01" />
 			</div>
 			<div class="spec">
 				<h4>Specifics</h4>

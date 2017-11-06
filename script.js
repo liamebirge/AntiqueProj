@@ -10,9 +10,9 @@ function gotoNew(url){
 
 function flipImg(antiqueNum){
 	var image = document.getElementsByClassName("antiqueImg");
-	if (image.src === "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg") {
-		image.src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + "R.jpg";
+	if (image.src === ("https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg")) {
+		image.src = ("https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + "R.jpg");
 	}else {
-		image.src = "https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg";
+		image.src = ("https://liamebirge.github.io/AntiqueProj/Pictures/antique" + antiqueNum + ".jpg");
 	}
 }
